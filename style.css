@@ -157,3 +157,174 @@ footer {
     text-align: center;
     padding: 50px 20px;
 }
+.hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7),
+                                rgba(0, 51, 102, 0.7)),
+                url("images/campus.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+/* Programmes */
+
+.programs {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.program-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.program-card {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-10px);
+}
+
+.program-card h3 {
+    margin-bottom: 15px;
+    color: #003366;
+}
+/* News Section */
+
+.news {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.news-card {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.news-card:hover {
+    transform: scale(1.05);
+}
+
+.news-card h3 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+/* Teachers Section */
+
+.teachers {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.teacher-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.teacher-card {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.teacher-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.teacher-card h3 {
+    margin-top: 15px;
+    color: #003366;
+}
+/* Gallery */
+
+.gallery {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery-container img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+/* Statistics Section */
+
+.statistics {
+    background-color: #003366;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.stat-card {
+    width: 200px;
+}
+
+.stat-card h3 {
+    font-size: 40px;
+    color: gold;
+}
+
+.stat-card p {
+    font-size: 18px;
+}
